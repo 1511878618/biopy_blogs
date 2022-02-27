@@ -2,6 +2,7 @@
 可以采用`getopt`模块或者`argparse`这两个模块来实现。
 前者是类似bash shell脚本的传递方式；后者是python 3.2版本新增加的模块，用于支持这一功能。
 
+现在都使用`argparse`模块来完成命令行输入的处理
 exapmle:
 ``` python
 import argparse
@@ -39,7 +40,9 @@ print(f"输入的位置参数是x，平方为：{args.x ** 2}")
 
 大致上分为这样几个步骤：
 1. `parser = argparse.ArgumentParser(description='xxxx')`首先生成`ArgumentParser`，也就是用于解析命令行的输入的一个类；其中`description`是help文档中关于该脚本的介绍文字。
-2. **然后便是添加各种参数**，通过`parser.add_argument('--name',default='xxx',)`来添加各种各样的参数，以及参数相关的设置。需要关注的是`add_argument()`函数的各种参数~
+   1. `prog=xxx` xxx是程序名，会在后续的文字中以这个名称来出现；`%(prog)s` 代表程序名。
+   2. `description="xxxx"`会在help文档中显示的一段描述该程序功能的文字；`description="%(prog)s is a useful tool for detect RNA splice sites."`
+2. **然后便是添加各种参数**，通过`parser.add_argument('--name',default='xxx',)`来添加各种各样的参数，以及参数相关的设置。需要注意的是，开头两个位置参数会决定创建的参数是什么类型：比如：1）创建一个位置参数`parser.add_argument('test')`；2）`parser.add_argument('-t', '--test')` 会创建一个可选参数
    1. `default=''`：**是没有设置值情况下的默认参数**
    2. `required=True`：**表示这个参数是否一定需要设置**；True or False
    3. `type=int`：**输入的文本会被转化成什么样的类型**；`type=int;type=str`
@@ -75,3 +78,10 @@ if __name__ == '__main__':
 >推荐阅读的博客：https://vra.github.io/2017/12/02/argparse-usage/
 >
 >官方教程：https://docs.python.org/zh-cn/3/howto/argparse.html#id1
+
+
+### 添加输入输出文件
+``` python 
+parser.add_argument('infile', nargs='?', type=argparse.FileType('r'), default=sys.stdin)
+parser.add_argument('outfile', nargs='?', type=argparse.FileType('w'), default=sys.stdout)
+```
