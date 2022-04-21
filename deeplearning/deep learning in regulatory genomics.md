@@ -3,7 +3,21 @@ Ref:[Computational Systems Biology
 Deep Learning in the Life Sciences](https://mit6874.github.io)第6，7课
 [TOC]
 
+tonphy
+
+- a question: 
+
+用染色质重塑相关的蛋白作为靶标（比如SWI家族），利用sc-chip-seq去看 处于某个发育阶段的一群细胞（他们会十分活跃的对染色质进行重塑之类的操作？），去获取结果，能否得到一些DNA片段中的**接近动态**（类似波峰的效果）的重塑过程？
+>比如间隔一段时间，测一次，看看SWI蛋白是否会重复性的出现在某些区域？暗示该区域的变化十分频繁？
+>这样做的目的：1. 想看看单细胞层次上是否可以重组出SWI的一个重塑的动态过程 2. **看看不同时间点下SWI会不会重复性的对某个区域进行解开、封闭** 但是感觉好像表观遗传学现在已经通过其他方式得到了这个结果的答案？
+
 ## 调控基因组学
+
+基因组上的各种修饰
+![](https://tf-picture-bed-1259792641.cos.ap-beijing.myqcloud.com/blog/2022-03-30-110822.png)
+
+各种组学结果可以分析：![](https://tf-picture-bed-1259792641.cos.ap-beijing.myqcloud.com/blog/2022-03-30-113232.png)
+>不同组学技术其实就是从不同角度去辅助观测DNA上的一个蛋白结合情况、染色质情况、转录表达情况的方式
 
 ### DNApacking-染色体的结构
 DNA序列在染色体上，是以核小体为最基本的单元。每一个核小体上覆盖的DNA序列大约200bp。而核小体与核小体之间的DNA序列，则处于开放状态；
