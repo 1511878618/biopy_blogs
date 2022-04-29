@@ -1,0 +1,14 @@
+## 文件管理
+
+### `ls`
+`ls` list
+
+- none(`-U`),size(`-S`);time(`-t`), version(`-v`),extension(`-X`)
+- `-h`, `--human-readable` 和`-l`一起使用，会用kb等来代表文件大小
+- `-a` `--all`显示所有
+- `-l` 使用长列表显示所有信息
+
+
+常用的写法`ls -al`、`ls -alh`、`ls -alhX`按文件大小降序排列。
+
+

@@ -1,0 +1,278 @@
+LOCUS       NC_005816               9609 bp    DNA     circular CON 27-MAR-2022
+DEFINITION  Yersinia pestis biovar Microtus str. 91001 plasmid pPCP1, complete
+            sequence.
+ACCESSION   NC_005816
+VERSION     NC_005816.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN02602970
+            Assembly: GCF_000007885.1
+KEYWORDS    RefSeq.
+SOURCE      Yersinia pestis biovar Microtus str. 91001
+  ORGANISM  Yersinia pestis biovar Microtus str. 91001
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+            Yersiniaceae; Yersinia.
+REFERENCE   1  (bases 1 to 9609)
+  AUTHORS   Zhou,D., Tong,Z., Song,Y., Han,Y., Pei,D., Pang,X., Zhai,J., Li,M.,
+            Cui,B., Qi,Z., Jin,L., Dai,R., Du,Z., Wang,J., Guo,Z., Wang,J.,
+            Huang,P. and Yang,R.
+  TITLE     Genetics of metabolic variations between Yersinia pestis biovars
+            and the proposal of a new biovar, microtus
+  JOURNAL   J Bacteriol 186 (15), 5147-5152 (2004)
+   PUBMED   15262951
+REFERENCE   2  (bases 1 to 9609)
+  AUTHORS   Song,Y., Tong,Z., Wang,J., Wang,L., Guo,Z., Han,Y., Zhang,J.,
+            Pei,D., Zhou,D., Qin,H., Pang,X., Han,Y., Zhai,J., Li,M., Cui,B.,
+            Qi,Z., Jin,L., Dai,R., Chen,F., Li,S., Ye,C., Du,Z., Lin,W.,
+            Wang,J., Yu,J., Yang,H., Wang,J., Huang,P. and Yang,R.
+  TITLE     Complete genome sequence of Yersinia pestis strain 91001, an
+            isolate avirulent to humans
+  JOURNAL   DNA Res 11 (3), 179-197 (2004)
+   PUBMED   15368893
+REFERENCE   3  (bases 1 to 9609)
+  AUTHORS   Song,Y., Tong,Z., Wang,L., Han,Y., Zhang,J., Pei,D., Wang,J.,
+            Zhou,D., Han,Y., Pang,X., Zhai,J., Chen,F., Qin,H., Wang,J., Li,S.,
+            Guo,Z., Ye,C., Du,Z., Lin,W., Wang,J., Yu,J., Yang,H., Wang,J.,
+            Huang,P. and Yang,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-APR-2003) The Institute of Microbiology and
+            Epidemiology, Academy of Military Medical Sciences, No. 20,
+            Dongdajie Street, Fengtai District, Beijing 100071, People's
+            Republic of China
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            AE017046.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 03/27/2022 11:25:41
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 6.0
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 4,362
+            CDSs (total)                      :: 4,258
+            Genes (coding)                    :: 4,036
+            CDSs (with protein)               :: 4,036
+            Genes (RNA)                       :: 104
+            rRNAs                             :: 8, 7, 7 (5S, 16S, 23S)
+            complete rRNAs                    :: 8, 7, 7 (5S, 16S, 23S)
+            tRNAs                             :: 72
+            ncRNAs                            :: 10
+            Pseudo Genes (total)              :: 222
+            CDSs (without protein)            :: 222
+            Pseudo Genes (ambiguous residues) :: 0 of 222
+            Pseudo Genes (frameshifted)       :: 98 of 222
+            Pseudo Genes (incomplete)         :: 153 of 222
+            Pseudo Genes (internal stop)      :: 34 of 222
+            Pseudo Genes (multiple problems)  :: 51 of 222
+            CRISPR Arrays                     :: 1
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..9609
+                     /organism="Yersinia pestis biovar Microtus str. 91001"
+                     /mol_type="genomic DNA"
+                     /strain="91001"
+                     /sub_species="microtus"
+                     /db_xref="taxon:229193"
+                     /plasmid="pPCP1"
+                     /biovar="Microtus"
+     gene            87..1109
+                     /gene="istA"
+                     /locus_tag="YP_RS22210"
+                     /old_locus_tag="pPCP01"
+                     /old_locus_tag="YP_pPCP01"
+     CDS             87..1109
+                     /gene="istA"
+                     /locus_tag="YP_RS22210"
+                     /old_locus_tag="pPCP01"
+                     /old_locus_tag="YP_pPCP01"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_000627495.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="IS21-like element IS100 family transposase"
+                     /protein_id="WP_000255944.1"
+                     /translation="MVTFETVMEIKILHKQGMSSRAIARELGISRNTVKRYLQAKSEP
+                     PKYTPRPAVASLLDEYRDYIRQRIADAHPYKIPATVIAREIRDQGYRGGMTILRAFIR
+                     SLSVPQEQEPAVRFETEPGRQMQVDWGTMRNGRSPLHVFVAVLGYSRMLYIEFTDNMR
+                     YDTLETCHRNAFRFFGGVPREVLYDNMKTVVLQRDAYQTGQHRFHPSLWQFGKEMGFS
+                     PRLCRPFRAQTKGKVERMVQYTRNSFYIPLMTRLRPMGITVDVETANRHGLRWLHDVA
+                     NQRKHETIQARPCDRWLEEQQSMLALPPEKKEYDVHLDENLVNFDKHPLHHPLSIYDS
+                     FCRGVA"
+     gene            1106..1888
+                     /gene="istB"
+                     /locus_tag="YP_RS22215"
+                     /old_locus_tag="pPCP02"
+                     /old_locus_tag="YP_pPCP02"
+     CDS             1106..1888
+                     /gene="istB"
+                     /locus_tag="YP_RS22215"
+                     /old_locus_tag="pPCP02"
+                     /old_locus_tag="YP_pPCP02"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:NP_858162.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="IS21-like element helper ATPase IstB"
+                     /protein_id="WP_001317493.1"
+                     /translation="MMMELQHQRLMALAGQLQLESLISAAPALSQQAVDQEWSYMDFL
+                     EHLLHEEKLARHQRKQAMYTRMAAFPAVKTFEEYDFTFATGAPQKQLQSLRSLSFIER
+                     NENIVLLGPSGVGKTHLAIAMGYEAVRAGIKVRFTTAADLLLQLSTAQRQGRYKTTLQ
+                     RGVMAPRLLIIDEIGYLPFSQEEAKLFFQVIAKRYEKSAMILTSNLPFGQWDQTFAGD
+                     AALTSAMLDRILHHSHVVQIKGESYRLRQKRKAGVIAEANPE"
+     gene            2925..3119
+                     /locus_tag="YP_RS22220"
+                     /old_locus_tag="pPCP03"
+                     /old_locus_tag="YP_pPCP03"
+     CDS             2925..3119
+                     /locus_tag="YP_RS22220"
+                     /old_locus_tag="pPCP03"
+                     /old_locus_tag="YP_pPCP03"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_001041627.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Rop family plasmid primer RNA-binding protein"
+                     /protein_id="WP_002213433.1"
+                     /translation="MNKQQQTALNMARFIRSQSLILLEKLDALDADEQAAMCERLHEL
+                     AEELQNSIQARFEAESETGT"
+     gene            4385..4780
+                     /locus_tag="YP_RS22225"
+                     /old_locus_tag="pPCP05"
+                     /old_locus_tag="YP_pPCP05"
+     CDS             4385..4780
+                     /locus_tag="YP_RS22225"
+                     /old_locus_tag="pPCP05"
+                     /old_locus_tag="YP_pPCP05"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_002218512.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="pesticin immunity protein"
+                     /protein_id="WP_223661135.1"
+                     /translation="MFLSSSGLAEKNTYTAKDILQNLELNTFGNSLSHGIYGKQTTFK
+                     QTEFTNIKSNTKKHIALINKDNSWMISLKILGIKRDEYTVCFEDFSLIRPPTYVAIHP
+                     LLIKKVKSGNFIVVKEIKKSIPGCTVYYH"
+     gene            complement(4815..5888)
+                     /gene="pst"
+                     /locus_tag="YP_RS22230"
+                     /old_locus_tag="pPCP06"
+                     /old_locus_tag="YP_pPCP06"
+     CDS             complement(4815..5888)
+                     /gene="pst"
+                     /locus_tag="YP_RS22230"
+                     /old_locus_tag="pPCP06"
+                     /old_locus_tag="YP_pPCP06"
+                     /EC_number="3.2.1.17"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_001285181.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="pesticin"
+                     /protein_id="WP_002218509.1"
+                     /translation="MSDTMVVNGSGGVPAFLFSGSTLSSYRPNFEANSITIALPHYVD
+                     LPGRSNFKLMYIMGFPIDTEMEKDSEYSNKIRQESKISKTEGTVSYEQKITVETGQEK
+                     DGVKVYRVMVLEGTIAESIEHLDKKENEDILNNNRNRIVLADNTVINFDNISQLKEFL
+                     RRSVNIVDHDIFSSNGFEGFNPTSHFPSNPSSDYFNSTGVTFGSGVDLGQRSKQDLLN
+                     DGVPQYIADRLDGYYMLRGKEAYDKVRTAPLTLSDNEAHLLSNIYIDKFSHKIEGLFN
+                     DANIGLRFSDLPLRTRTALVSIGYQKGFKLSRTAPTVWNKVIAKDWNGLVNAFNNIVD
+                     GMSDRRKREGALVQKDIDSGLLK"
+     gene            6116..6421
+                     /locus_tag="YP_RS22235"
+                     /old_locus_tag="pPCP07"
+                     /old_locus_tag="YP_pPCP07"
+     CDS             6116..6421
+                     /locus_tag="YP_RS22235"
+                     /old_locus_tag="pPCP07"
+                     /old_locus_tag="YP_pPCP07"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_002221218.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_002221218.1"
+                     /translation="MSKTKSGRHRLSKTDKRLLAALVVAGYEERTARDLIQKHVYTLT
+                     QADLRHLVSEISNGVGQSQAYDAIYQARRIRLARKYLSGKKPEGVEPREGQEREDLP"
+     gene            6664..7602
+                     /gene="pla"
+                     /locus_tag="YP_RS22240"
+                     /old_locus_tag="pPCP08"
+                     /old_locus_tag="YP_pPCP08"
+     CDS             6664..7602
+                     /gene="pla"
+                     /locus_tag="YP_RS22240"
+                     /old_locus_tag="pPCP08"
+                     /old_locus_tag="YP_pPCP08"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_002231174.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="omptin family plasminogen activator Pla"
+                     /protein_id="WP_002231174.1"
+                     /translation="MKKSSIVATIITILSGSANAASSQLIPNISPDSFTVAASTGMLS
+                     GKSHEMLYDAETGRKISQLDWKIKNVAILKGDISWDPYSFLTLNARGWTSLASGSGNM
+                     DDYDWMNENQSEWTDHSSHPATNVNHANEYDLNVKGWLLQDENYKAGITAGYQETRFS
+                     WTATGGSYSYNNGAYTGNFPKGVRVIGYNQRFSMPYIGLAGQYRINDFELNALFKFSD
+                     WVRAHDNDEHYMRDLTFREKTSGSRYYGTVINAGYYVTPNAKVFAEFTYSKYDEGKGG
+                     TQIIDKNSGDSVSIGGDAAGISNKNYTVTAGLQYRF"
+     gene            complement(7789..8088)
+                     /locus_tag="YP_RS22245"
+                     /old_locus_tag="pPCP09"
+                     /old_locus_tag="YP_pPCP09"
+     CDS             complement(7789..8088)
+                     /locus_tag="YP_RS22245"
+                     /old_locus_tag="pPCP09"
+                     /old_locus_tag="YP_pPCP09"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_002218230.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="XRE family transcriptional regulator"
+                     /protein_id="WP_002213446.1"
+                     /translation="MRTLDEVIASRSPESQTRIKEMADEMILEVGLQMMREELQLSQK
+                     QVAEAMGISQPAVTKLEQRGNDLKLATLKRYVEAMGGKLSLDVELPTGRRVAFHV"
+     gene            complement(8088..8429)
+                     /locus_tag="YP_RS22250"
+                     /old_locus_tag="pPCP10"
+                     /old_locus_tag="YP_pPCP10"
+     CDS             complement(8088..8429)
+                     /locus_tag="YP_RS22250"
+                     /old_locus_tag="pPCP10"
+                     /old_locus_tag="YP_pPCP10"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_002225538.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="type II toxin-antitoxin system RelE/ParE family
+                     toxin"
+                     /protein_id="WP_002225538.1"
+                     /translation="MVLFSQRFDDWLNEQEDALQEKVLADLKKLQVYGPELPRPYADT
+                     VKGSRYKNMKELRVQFSGRPIRAFYAFDPIRRAIVLCAGDKSNDKRFYEKLVRIAEDE
+                     FTAHLNTLESK"
+CONTIG      join(AE017046.1:1..9609)
+//
+
