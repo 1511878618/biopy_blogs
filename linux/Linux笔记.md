@@ -1123,7 +1123,7 @@ do
         o) echo "output File:${OPTARG}";;
         m) echo "using max model~";;
         *) echo "Unknown Option ${opt}";;
-    esac
+    esac 
 done 
 ```
 
@@ -1436,4 +1436,7 @@ print "This concludes ths listing"
 ## 链接
 - `ln`命令
 
+- 软连接
 `ln -s /pubdata/NGS ~/`
+- 硬连接
+`ln source target`
