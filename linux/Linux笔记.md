@@ -875,6 +875,7 @@ fi
 for var in list
 do 
   command1
+  
 done
 
 or 
